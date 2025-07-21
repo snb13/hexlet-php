@@ -11,5 +11,7 @@
             "email": "snb13@bk.ru"
         }
     ],
-    "require": {}
+    "require": {
+        "illuminate/collections": "^12.20"
+    }
 }
