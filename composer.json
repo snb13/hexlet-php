@@ -1,0 +1,15 @@
+{
+    "name": "alex-m/hexlet-php",
+    "autoload": {
+        "psr-4": {
+            "AlexM\\HexletPhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "a.maksimov",
+            "email": "snb13@bk.ru"
+        }
+    ],
+    "require": {}
+}
