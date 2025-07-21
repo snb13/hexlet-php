@@ -1,9 +1,9 @@
 {
     "name": "alex-m/hexlet-php",
     "autoload": {
-        "psr-4": {
-            "AlexM\\HexletPhp\\": "src/"
-        }
+        "files": [
+            "src/Runner.php"
+        ] 
     },
     "authors": [
         {
@@ -13,5 +13,11 @@
     ],
     "require": {
         "illuminate/collections": "^12.20"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^2.2"
+    },
+    "scripts" : {
+        "phpcs": "phpcs"
     }
 }
